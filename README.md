@@ -2,6 +2,9 @@
 
 A simple and user-friendly web application to calculate your age based on your birth date. The Age Calculator provides your age in years, months, weeks, and days. Additionally, you can easily share your calculated age results with friends and family.
 
+![mohdhuzaifa2 github io_Age-Calculator_](https://github.com/MohdHuzaifa2/Age-Calculator/assets/107480387/36061c0a-c741-4e7b-8b15-52fb649cf3ba)
+
+
 ## Features
 
 - **Accurate Age Calculation**: Get your age in years, months, weeks, and days.
