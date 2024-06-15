@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Age Calculator</title>
+  
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>Age Calculator</h1>
+    <!-- <p class="subtitle">Seamlessly & easily calculate your age</p> -->
+    <form>
+      <div class="from">
+        <label for="from">From:</label>
+        <div class="input-wrapper">
+          <input type="date" name="from" id="from" value="2023-04-08" required>
+        </div>
+      </div>
+      <div class="to">
+        <label for="to">To:</label>
+        <div class="input-wrapper">
+          <input type="date" name="to" id="to" value="2024-04-08" required>
+        </div>
+      </div>
+      <button class="calculate" type="submit">Calculate</button>
+    </form>
+    <div class="results">
+      <div>Your Age is</div>
+      <div class="age">
+        <div class="year">
+          <div class="value">00</div>
+          <div class="caption">Years</div>
+        </div>
+        <div class="month">
+          <div class="value">00</div>
+          <div class="caption">Months</div>
+        </div>
+        <div class="week">
+          <div class="value">00</div>
+          <div class="caption">Weeks</div>
+        </div>
+        <div class="day">
+          <div class="value">00</div>
+          <div class="caption">Days</div>
+        </div>
+      </div>
+      <div class="dob">For DOB YYYY-MM-DD</div>
+    </div>
+    <div class="totals">
+      <div class="total-list">
+        <div class="total-year">
+          <div class="label">Total Year</div>
+          <div class="value">00</div>
+        </div>
+        <div class="total-month">
+          <div class="label">Total Months</div>
+          <div class="value">00</div>
+        </div>
+        <div class="total-week">
+          <div class="label">Total Weeks</div>
+          <div class="value">00</div>
+        </div>
+        <div class="total-day">
+          <div class="label">Total Days</div>
+          <div class="value">00</div>
+        </div>
+        <div class="total-hour">
+          <div class="label">Total Hours</div>
+          <div class="value">00</div>
+        </div>
+        <div class="total-minute">
+          <div class="label">Total Minutes</div>
+          <div class="value">00</div>
+        </div>
+        <div class="total-second">
+          <div class="label">Total Seconds</div>
+          <div class="value">00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

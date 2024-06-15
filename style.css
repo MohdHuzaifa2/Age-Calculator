@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Inter", "Rubik", sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #e5e5e5;
+}
+
+.wrapper {
+  max-width: 500px;
+  min-height: 100%;
+  background: #fff;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: darkgrey;
+  margin-top: 2px;
+  font-weight: 500;
+}
+
+form {
+  margin-block: 15px 20px;
+  padding: 15px;
+  background: #0033ff;
+  color: white;
+  border-radius: 10px;
+}
+
+.from, .to {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+#from, #to {
+  width: 100%;
+  padding: 10px;
+  border-radius: 7.5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  background: white;
+  color: #333;
+}
+
+.calculate {
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 10px;
+  outline: none;
+  font-size: 17px;
+  border-radius: 7.5px;
+  font-weight: 500;
+  color: white;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur( 4.5px );
+  border: 1.25px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.results {
+  background: #0a258f;
+  color: white;
+  margin-block: 15px 0;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.age {
+  width: 100%;
+  margin-block: 20px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.age > * {
+  padding: 15px;
+  border-radius: 7.5px;
+  text-align: center;
+  flex: 1;
+}
+
+.age .value {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.age .caption {
+  font-size: 12px;
+}
+
+.age .year { background: #3cb1fe; }
+
+.age .month { background: #EEB400; }
+
+.age .week { background: #79a484; }
+
+.age .day { background: #FF003E; }
+
+.dob {
+  font-size: 14px;
+  color: #E7ECFF;
+  font-weight: 500;
+}
+
+.totals {
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0 0 5px 0px #0004;
+  border-radius: 0 0 10px 10px;
+}
+
+.total-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7.5px;
+}
+
+.total-list > * {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+}
