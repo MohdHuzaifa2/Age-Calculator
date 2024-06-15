@@ -61,7 +61,7 @@ document.getElementById('currentDate').value = formattedDate;
 
 ```
 
-## Share Button Implementation
+### Share Button Implementation
 The share button enables users to share their age calculation results. It uses the Web Share API for supported browsers and a fallback alert for unsupported browsers.
 
 ``` html
